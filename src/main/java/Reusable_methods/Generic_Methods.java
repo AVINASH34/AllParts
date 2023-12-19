@@ -310,4 +310,10 @@ public class Generic_Methods {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,"+num+")", "");
 		}
+		
+		public void scrollelement(By element) {
+			driver.findElement(element);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click()", element);
+		}
 }

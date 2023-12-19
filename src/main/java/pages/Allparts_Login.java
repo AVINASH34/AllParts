@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import Base.browser;
 
@@ -10,7 +11,7 @@ public class Allparts_Login extends browser{
 	public By mail = By.xpath("//input[@id='email']");
 	public By password = By.xpath("//input[@id='pass']");
 	public By signin_btn = By.xpath("//button[@class='action login primary']");
-	
+	public By element = By.xpath("//a[text()='Government']");
 	
 	public void myaccountdrop() {
 		dropDownSelectText(my_accountdrop, "Log In");
@@ -25,7 +26,9 @@ public class Allparts_Login extends browser{
 	}
 	
 	public void signin() {
-		Scroll_dwn(10);
-		clickElement(signin_btn);
+		
+		//Scroll_dwn(10);
+		scrollelement(signin_btn);
+		//clickElement(signin_btn);
 	}
 }
