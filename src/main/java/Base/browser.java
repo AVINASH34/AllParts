@@ -17,6 +17,7 @@ public class browser extends Generic_Methods {
 
 	public WebDriver launchurl() throws IOException {
 		
+		
 		Properties p = new Properties();
 		FileInputStream file = new FileInputStream("C:\\Users\\ADMIN\\eclipse-workspace\\Allparts\\src\\main\\resources\\configure.properties");
 		p.load(file);
