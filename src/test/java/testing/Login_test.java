@@ -18,7 +18,7 @@ import com.aventstack.extentreports.util.Assert;
 
 import Reusable_methods.ExtentReport;
 import pages.Allparts_Login;
-import pages.mylistner;
+
 
 
 public class Login_test extends Allparts_Login {
@@ -26,7 +26,7 @@ public class Login_test extends Allparts_Login {
 	ExtentReport e = new ExtentReport("Allparts Login page");
 	ExtentTest report;
 	boolean result;
-	public static Logger log = LogManager.getLogger(mylistner.class);
+	public static Logger log = LogManager.getLogger(Allparts_Login.class);
 	
 	@BeforeClass
 	public void openbrowser() throws IOException {

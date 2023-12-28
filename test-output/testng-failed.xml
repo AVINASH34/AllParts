@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testing.dataexe">
+      <class name="testing.Login_test">
         <methods>
-          <include name="dataexe" invocation-numbers="0 1"/>
+          <include name="sign"/>
+          <include name="openbrowser"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- testing.dataexe -->
+      </class> <!-- testing.Login_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
