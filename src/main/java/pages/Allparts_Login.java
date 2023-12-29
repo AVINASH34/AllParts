@@ -27,8 +27,8 @@ public class Allparts_Login extends browser{
 	
 	public void signin() {
 		
-		//Scroll_dwn(10);
-		scrollelement(signin_btn);
-		//clickElement(signin_btn);
+		Scroll_dwn(10);
+		//scrollelement(signin_btn);
+		clickElement(signin_btn);
 	}
 }
