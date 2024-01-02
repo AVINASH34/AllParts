@@ -1,7 +1,5 @@
 package Reusable_methods;
 
-import static org.testng.Assert.assertTrue;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -10,13 +8,14 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class ExtentReport {
+public class ExtentReport{
 
 	private ExtentReports ereports;
 	private ExtentSparkReporter sparkreport;
@@ -81,7 +80,7 @@ public class ExtentReport {
 		else {
 			testfail(driver,report,failmessage,image);
 		}
-		assertTrue(result, failmessage + "\t");
+		Assert.assertTrue(result, failmessage + "\t");
 		System.out.println(passmessage);
 	}
 	
