@@ -2,80 +2,80 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-02T11:20:36 IST" name="Suite" finished-at="2024-01-02T11:21:17 IST" duration-ms="40669">
+  <suite started-at="2024-01-09T11:33:23 IST" name="Default suite" finished-at="2024-01-09T11:36:16 IST" duration-ms="173497">
     <groups>
     </groups>
-    <test started-at="2024-01-02T11:20:36 IST" name="Test" finished-at="2024-01-02T11:21:17 IST" duration-ms="40669">
+    <test started-at="2024-01-09T11:33:23 IST" name="Default test" finished-at="2024-01-09T11:36:16 IST" duration-ms="173497">
       <class name="testing.Login_test">
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:20:36 IST" name="openbrowser" finished-at="2024-01-02T11:21:08 IST" duration-ms="31749" status="PASS">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:33:23 IST" name="openbrowser" finished-at="2024-01-09T11:35:03 IST" duration-ms="100120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method signature="login_btn()[pri:1, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:08 IST" name="login_btn" finished-at="2024-01-02T11:21:13 IST" duration-ms="4554" status="PASS">
+        <test-method signature="login_btn()[pri:1, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:35:03 IST" name="login_btn" finished-at="2024-01-09T11:36:02 IST" duration-ms="58512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_btn -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:13 IST" name="getResult" finished-at="2024-01-02T11:21:13 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="getResult" finished-at="2024-01-09T11:36:02 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_btn status=SUCCESS method=Login_test.login_btn()[pri:1, instance:testing.Login_test@6b0d80ed] output={null}]]]>
+                <![CDATA[[TestResult name=login_btn status=SUCCESS method=Login_test.login_btn()[pri:1, instance:testing.Login_test@452e19ca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="email()[pri:2, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:13 IST" name="email" finished-at="2024-01-02T11:21:14 IST" duration-ms="1307" status="PASS">
+        <test-method signature="email()[pri:2, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="email" finished-at="2024-01-09T11:36:02 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- email -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:14 IST" name="getResult" finished-at="2024-01-02T11:21:14 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="getResult" finished-at="2024-01-09T11:36:02 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=email status=SUCCESS method=Login_test.email()[pri:2, instance:testing.Login_test@6b0d80ed] output={null}]]]>
+                <![CDATA[[TestResult name=email status=SUCCESS method=Login_test.email()[pri:2, instance:testing.Login_test@452e19ca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="password()[pri:3, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:14 IST" name="password" finished-at="2024-01-02T11:21:14 IST" duration-ms="418" status="PASS">
+        <test-method signature="password()[pri:3, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="password" finished-at="2024-01-09T11:36:02 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- password -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:14 IST" name="getResult" finished-at="2024-01-02T11:21:14 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="getResult" finished-at="2024-01-09T11:36:02 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=password status=SUCCESS method=Login_test.password()[pri:3, instance:testing.Login_test@6b0d80ed] output={null}]]]>
+                <![CDATA[[TestResult name=password status=SUCCESS method=Login_test.password()[pri:3, instance:testing.Login_test@452e19ca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="sign()[pri:4, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:14 IST" name="sign" finished-at="2024-01-02T11:21:15 IST" duration-ms="757" status="PASS">
+        <test-method signature="sign()[pri:4, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:02 IST" name="sign" finished-at="2024-01-09T11:36:03 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sign -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:15 IST" name="getResult" finished-at="2024-01-02T11:21:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:03 IST" name="getResult" finished-at="2024-01-09T11:36:03 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sign status=SUCCESS method=Login_test.sign()[pri:4, instance:testing.Login_test@6b0d80ed] output={null}]]]>
+                <![CDATA[[TestResult name=sign status=SUCCESS method=Login_test.sign()[pri:4, instance:testing.Login_test@452e19ca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:testing.Login_test@6b0d80ed]" started-at="2024-01-02T11:21:15 IST" name="endReport" finished-at="2024-01-02T11:21:17 IST" duration-ms="1624" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testing.Login_test@452e19ca]" started-at="2024-01-09T11:36:03 IST" name="endReport" finished-at="2024-01-09T11:36:16 IST" duration-ms="13861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- testing.Login_test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

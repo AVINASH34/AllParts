@@ -6,8 +6,10 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import Reusable_methods.Generic_Methods;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,8 +26,11 @@ public class browser extends Generic_Methods {
 		String Browsername = p.getProperty("browser");
 		
 		if(Browsername.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver();
-			driver=new ChromeDriver();
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions option = new ChromeOptions();
+		    option.addArguments("--test-type");
+		    option.addArguments("--disable-popup-bloacking");
+			driver=new ChromeDriver(option);
 		}
 		else if(Browsername.equalsIgnoreCase("Edge")) {
 			WebDriverManager.edgedriver();
