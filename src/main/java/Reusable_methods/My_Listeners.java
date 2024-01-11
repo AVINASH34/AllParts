@@ -1,8 +1,7 @@
 package Reusable_methods;
 
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
+
 
 public class My_Listeners implements ITestListener{
 
